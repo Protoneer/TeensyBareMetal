@@ -92,6 +92,7 @@ The makefile
 Here is my blinky makefile, blinky.mak.
 
 --------------------------------------------------------------------------------------
+https://github.com/Protoneer/TeensyBareMetal/blob/master/blinky.mak
 ------------------------------------------------------------------------
 
 This is kind of a large file, but much of that bulk is comments.  There are a few key macros that you must set up in order to build your blinky program correctly.
@@ -113,6 +114,7 @@ My blinky program
 Here is the source for my blinky.c file.
 
 -----------------------------------------
+https://github.com/Protoneer/TeensyBareMetal/blob/master/blinky.c
 -----------------------------------------
 
 As you can see, there isn't much to it.  The low-level initialization (in sysinit.c) is automatically invoked by crt0.s.  By the time control enters main(), the MCU clocks have been set up, the GPIO ports have clocks routed to them, and all variable initialization has been done.
