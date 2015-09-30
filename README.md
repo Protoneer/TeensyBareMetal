@@ -47,7 +47,7 @@ You will also need the K20 documentation.  The main items are the Reference Guid
 The project layout
 I have copied files from the K20 archive listed above, then moved them into folders in my Teensy3x project tree in a layout I like, which is different from the layout assumed in the Freescale projects.  My layout looks like this:
 
-c:\projects\Teensy3x\
+'c:\projects\Teensy3x\
     blinky\
         blinky.sln        (VS2008 solution file for blinky)
         blinky\
@@ -66,7 +66,7 @@ c:\projects\Teensy3x\
         MK20D7.h
         sysinit.h
         (assorted low-level .h files, such as uart.h, not needed for blinky)
-
+'
 This layout lets me keep all project-related source files in a dedicated project folder, but find common driver code and include files easily.  To duplicate this layout, you will need to find the associated files in the K20 archive and move them as needed.  Or you can create your own layout, then modify the blinky.mak makefile accordingly.
 
 
